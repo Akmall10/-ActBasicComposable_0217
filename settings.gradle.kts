@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ActBasicComposable_4NIMBelakang"
+rootProject.name = "ActBasicComposable_0217"
 include(":app")

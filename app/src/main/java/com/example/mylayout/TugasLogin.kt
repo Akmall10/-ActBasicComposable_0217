@@ -1,5 +1,6 @@
 package com.example.mylayout
 
+import android.R
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -27,7 +28,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
     ) {
         // Background Image representing Mecca / Architecture
         Image(
-            painter = painterResource(id = android.R.drawable.ic_menu_gallery),
+            painter = painterResource(id = R.drawable.ic_menu_gallery),
             contentDescription = "Background Mecca",
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
@@ -70,7 +71,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             // University Logo (UMY Logo placeholder)
             Image(
-                painter = painterResource(id = android.R.drawable.ic_menu_compass),
+                painter = painterResource(id = R.drawable.ic_menu_compass),
                 contentDescription = "Logo UMY",
                 modifier = Modifier.size(100.dp),
                 contentScale = ContentScale.Fit
@@ -89,7 +90,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             // Name Value
             Text(
-                text = "Pascal Pahlevi Pasha",
+                text = "Akmal Prasetyo",
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Blue,
@@ -100,7 +101,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             // Student ID / NIM
             Text(
-                text = "20000140001",
+                text = "20240140217",
                 fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Black,
@@ -118,7 +119,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 contentAlignment = Alignment.Center
             ) {
                 Image(
-                    painter = painterResource(id = android.R.drawable.ic_menu_gallery),
+                    painter = painterResource(id = R.drawable.ic_menu_gallery),
                     contentDescription = "Circular Kaaba Photo",
                     modifier = Modifier.fillMaxSize(),
                     contentScale = ContentScale.Crop
