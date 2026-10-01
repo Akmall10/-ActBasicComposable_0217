@@ -1,6 +1,5 @@
 package com.example.mylayout
 
-import android.R
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -28,7 +27,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
     ) {
         // Background Image representing Mecca / Architecture
         Image(
-            painter = painterResource(id = R.drawable.ic_menu_gallery),
+            painter = painterResource(id = R.drawable.bg_mecca),
             contentDescription = "Background Mecca",
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
@@ -69,9 +68,9 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // University Logo (UMY Logo placeholder)
+            // University Logo (UMY Logo)
             Image(
-                painter = painterResource(id = R.drawable.ic_menu_compass),
+                painter = painterResource(id = R.drawable.umy_logo),
                 contentDescription = "Logo UMY",
                 modifier = Modifier.size(100.dp),
                 contentScale = ContentScale.Fit
@@ -110,7 +109,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Circular Image Component (Kaaba / Clock Tower view)
+            // Circular Image Component (Kaaba view)
             Box(
                 modifier = Modifier
                     .size(180.dp)
@@ -119,7 +118,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 contentAlignment = Alignment.Center
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.ic_menu_gallery),
+                    painter = painterResource(id = R.drawable.kaaba_photo),
                     contentDescription = "Circular Kaaba Photo",
                     modifier = Modifier.fillMaxSize(),
                     contentScale = ContentScale.Crop
