@@ -23,12 +23,12 @@ import com.example.mylayout.ui.theme.MyLayoutTheme
 @Composable
 fun TugasLogin(modifier: Modifier = Modifier) {
     Box(
-        modifier = modifier.fillMaxSize()
+        modifier = Modifier.fillMaxSize()
     ) {
-        // Background Image representing Mecca / Architecture
+        // Background Image representing Gedung Admisi
         Image(
-            painter = painterResource(id = R.drawable.bg_mecca),
-            contentDescription = "Background Mecca",
+            painter = painterResource(id = R.drawable.bg_admisi),
+            contentDescription = "Background Gedung Admisi",
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
@@ -41,7 +41,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         )
 
         Column(
-            modifier = Modifier
+            modifier = modifier
                 .fillMaxSize()
                 .padding(24.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -109,7 +109,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Circular Image Component (Kaaba view)
+            // Circular Image Component (Teknologi Informasi view)
             Box(
                 modifier = Modifier
                     .size(180.dp)
@@ -118,8 +118,8 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 contentAlignment = Alignment.Center
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.kaaba_photo),
-                    contentDescription = "Circular Kaaba Photo",
+                    painter = painterResource(id = R.drawable.teknologi_informasi),
+                    contentDescription = "Circular Teknologi Informasi Photo",
                     modifier = Modifier.fillMaxSize(),
                     contentScale = ContentScale.Crop
                 )

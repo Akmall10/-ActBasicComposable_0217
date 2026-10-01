@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Outer Green Badge / Shield -->
+    <path
+        android:fillColor="#004029"
+        android:pathData="M50,2 C65,2 75,10 85,20 C95,30 98,40 98,50 C98,60 95,70 85,80 C75,90 65,98 50,98 C35,98 25,90 15,80 C5,70 2,60 2,50 C2,40 5,30 15,20 C25,10 35,2 50,2 Z"/>
+
+    <!-- Golden Yellow Outer Border Ring -->
+    <path
+        android:fillColor="#F6B800"
+        android:pathData="M50,6 C63,6 72,13 81,21 C89,30 94,39 94,50 C94,61 89,70 81,79 C72,87 63,94 50,94 C37,94 28,87 19,79 C11,70 6,61 6,50 C6,39 11,30 19,21 C28,13 37,6 50,6 Z"/>
+
+    <!-- Inner Green Circle -->
+    <path
+        android:fillColor="#004029"
+        android:pathData="M50,10 C61,10 70,17 78,25 C85,33 90,41 90,50 C90,59 85,67 78,75 C70,83 61,90 50,90 C39,90 30,83 22,75 C15,67 10,59 10,50 C10,41 15,33 22,25 C30,17 39,10 50,10 Z"/>
+
+    <!-- Golden Sun Rays / Center Star -->
+    <path
+        android:fillColor="#F6B800"
+        android:pathData="M50,25 L55,42 L72,45 L58,57 L62,75 L50,65 L38,75 L42,57 L28,45 L45,42 Z"/>
+</vector>
